@@ -16,11 +16,16 @@
     --nav-hover-background-color: #9EC1A3;
 }
 
-* {
-    margin: 10px;
-}
+body {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-family: var(--paragraph-font);
+    border: 10px;
+    }
 
-h2 {
+
+h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     font-weight: bold;
@@ -38,7 +43,7 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
 }
 
@@ -69,11 +74,9 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     top: 350px;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;    
-    opacity: 70%;
-    font-size: 4rem;
+    left: 500px;   
+    opacity: 80%;
+    font-size: 3rem;
     place-content: center;
     color: var(--primary-color);
     background-color: var(--accent1-color);
@@ -84,9 +87,9 @@ nav a:hover {
     position: absolute;
     margin: 100px;
     top: 450px;
+    width: 970px;
     opacity: 80%;
-    place-content: center;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 5px;
     background-color: var(--accent2-color);
 }
@@ -101,6 +104,8 @@ nav a:hover {
 
 section {
     display:grid;
+    padding: 20px;
+    margin: 20px;
 }
 
     
