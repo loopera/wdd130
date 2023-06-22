@@ -35,10 +35,6 @@ main img {
     float: right;
 }
 
-/* p {
-    padding: 0;
-} */
-
 .grid {
     display: grid;
     align-items: center;

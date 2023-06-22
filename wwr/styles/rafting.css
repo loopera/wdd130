@@ -12,30 +12,42 @@
 
     --nav-background-color: #1F363D;
     --nav-link-color: #40798C;
-    --nav-hover-link-color: #70A9A1;
+    --nav-hover-link-color: #1F363D;
     --nav-hover-background-color: #9EC1A3;
 }
 
 * {
-    max-width: 1200px;
-    margin: 10px;
+    max-width: 840px;
+    margin: auto;
     padding: 5px;
     font-family: var(--paragraph-font);
-    /* border: 10px; */
-    /* box-sizing: border-box; */
-    }
+    box-sizing: border-box;
+}
 
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
-    font-weight: bold;
-  }
+    font-weight: bolder;
+}
 
 
 header {
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    justify-content: space-between;
+    border: solid var(--primary-color);
+    padding: 0;
     background-color: var(--accent1-color);
+    max-width: 840px;
+}
+
+header img {
+    margin-left: 100px;
 }
 
 p {
@@ -43,19 +55,22 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.5rem;
     display: flex;
+    background-color: var(--nav-background-color);
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 nav a {
-    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 10px;
+    margin: 10px;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
@@ -69,26 +84,35 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
-    position:relative;
+    position: relative;
 }
 
 .hero h1 {
     position: absolute;
-    top: 350px;
-    left: 400px;   
+    top: 180px;
+    left: 650px;
+    margin: auto;
     opacity: 80%;
-    font-size: 3rem;
-    place-content: center;
+    font-size: 2rem;
+    text-align: center;
     color: var(--primary-color);
     background-color: var(--accent1-color);
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    justify-content: space-around;
+    background-color: #9EC1A3;
 }
 
 
 .middle {
     position: absolute;
-    margin: 100px;
-    top: 450px;
-    width: 970px;
+    top: 400px;
+    left: 380px;
+    margin: 10px;
+    width: 740px;
     opacity: 80%;
     font-size: 1rem;
     padding: 5px;
@@ -104,10 +128,32 @@ nav a:hover {
 
 
 section {
-    display:grid;
-    padding: 20px;
-    margin: 20px;
+    padding: 0;
+    margin: auto;
+    place-content: center;
+    text-align: center;
 }
 
-    
+.pictures {
+    display: flex;
+    max-width: 840px;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+}
+
+footer {
+    display: flex;
+    max-width: 840px;
+    padding: 0;
+    border: solid var(--accent2-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.sociallinks {
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
