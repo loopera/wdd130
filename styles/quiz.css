@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lobster, Georgia, serif;
+    font-size: 1.2em;
+    color: black;
+    background: #fff;
+    padding: 25px;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: navy;
+    text-align: left;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px red;
+    border-radius: 0.5rem;
+    background-color: azure;
+    display: grid;
+}
+
+
+legend {
+    padding: 0.5rem;
+    color: red;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+div {
+    padding: 1px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+button {
+    margin-top: 30px;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: navy;
+    border-top: 1px solid pink;
+}
