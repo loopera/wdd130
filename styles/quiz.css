@@ -30,18 +30,12 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px red;
+    border: 1px solid black;
     border-radius: 0.5rem;
     background-color: azure;
     display: grid;
 }
 
-
-legend {
-    padding: 0.5rem;
-    color: red;
-    font-size: 1.3rem;
-}
 
 label, input, button, select, textarea {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
