@@ -57,7 +57,7 @@ input, select, textarea {
     font-size: 1.1rem;
 }
 
-div {
+span {
     padding: 1px;
     background-color: black;
     color: white;
