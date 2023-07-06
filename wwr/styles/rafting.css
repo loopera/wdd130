@@ -78,7 +78,7 @@ nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
+nav a:hover, button:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
@@ -177,3 +177,32 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+/* CONTACT US PAGE */
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    background-color: white;
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+button {
+    margin-top: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+fieldset {
+    width: 700px;
+    padding:10px;
+}
+

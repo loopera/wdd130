@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page aims to tell the people about the Contact Information about 
+    the company about whitewater rafting. This page also asks a contact form which the user can submit to 
+    ask questions about the company and its services.">
+    <meta name="author" content="Arianne Looper">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Whitewater Rafting | Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo" width="100">
+        <nav>
+            <a href="wwr/index.html">Home</a>
+            <a href="wwr/about.html">About Us</a>
+            <a href="wwr/trips.html">Trips</a>
+            <a href="wwr/contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/hero.jpg" alt="Four People Rafting on the River">
+            <h1>Whitewater Rafting</h1>
+        </div>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Address: River Great Ouse, Norfolk, United Kingdom</p>
+            <p>Phone Number: 0711-0000-123</p>
+            <p>Email: customerservice@whitewaterrafting.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10231.228856969732!2d0.3959012304395174!3d52.76378881214191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1688660192265!5m2!1sen!2sph"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section>
+            <h2>Meet the crew!</h2>
+            <div class="pictures">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Female Employee with yellow vest" width="200">
+                    <figcaption>Barbie Pendragon, Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Male employee with red jacket and green vest" width="200">
+                    <figcaption>Timothy Reeves, Rafting Teacher</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="female employee with red life vest" width="200">
+                    <figcaption>Betty Halliwell, Safety Officer</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Message Us</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Enter Full Name:</label>
+                    <input type="text" id="fullname" name="fullname"><br>
+
+                    <label for="email">Enter Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquire Here</legend>
+                    <p>Purpose of Message:</p>
+                    <input type="radio" id="generalinquiry" name="messagepurpose">
+                    <label for="generalinquiry">General Inquiry</label><br>
+
+                    <input type="radio" id="reservationquestion" name="messagepurpose">
+                    <label for="reservationquestion">Reservation Question</label><br>
+
+                    <input type="radio" id="websitesuggestion" name="messagepurpose">
+                    <label for="websitesuggestion">Website Suggestion</label><br>
+                    <br>
+
+                    <label for="message">Enter message here:</label><br>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                </fieldset>
+
+                <label for="subscribe">Please subsribe to the monthly newsletter.</label>
+                <input type="checkbox" id="subscribe" name="subscribe"><br>
+
+                <button type="submit">Submit Message</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2023 💧 Whitewater Rafting 💧 Arianne Looper</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.png" alt="Facebook" width="30">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter-icon.png" alt="Twitter" width="30">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/messenger-icon.png" alt="Messenger" width="30">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
